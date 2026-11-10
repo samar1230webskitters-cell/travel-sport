@@ -98,8 +98,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 h1, h2, h3, p, blockquote { margin-top: 0; }
 h1, h2, h3 { font-family: "Outfit", sans-serif; }
 .hero h1, .page-hero h1 { margin: 0; font-size: clamp(62px, 7.5vw, 102px); font-weight: 500; letter-spacing: -6px; line-height: .96;
-
-display:none;
 }
 .hero h1 { max-width: 760px; }
 h1 em, h2 em { color: #d8b27b; font-family: Georgia, serif; font-weight: 400; }
