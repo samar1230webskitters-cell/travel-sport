@@ -370,6 +370,7 @@ h1 em, h2 em { color: #d8b27b; font-family: Georgia, serif; font-weight: 400; }
 .booking-aside .text-link { margin-top: 0; }
 
 @media (max-width: 900px) {
+  .desktop-break { display: none; }
   .container { width: min(var(--container), calc(100% - 44px)); }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 14px; }
   .section-heading > div { width: 100%; }
@@ -469,6 +470,7 @@ h1 em, h2 em { color: #d8b27b; font-family: Georgia, serif; font-weight: 400; }
   .destination-info { right: 12px; bottom: 14px; left: 13px; }
   .destination-info strong { font-size: 18px; }
   .destination-info small { font-size: 8px; }
+  
   .round-arrow { width: 32px; height: 32px; }
   .card-tag { top: 11px; left: 11px; padding: 6px 7px; font-size: 7px; }
   .feature-section { padding: 72px 0; }
